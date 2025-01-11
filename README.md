@@ -1,4 +1,4 @@
-# MyResume
+# <img src="https://github.com/MDimidov/MyResume/blob/main/docs/img/favicon.ico"> MyResume
 
 My resume as one page site. Hosted on GitHub Pages.
 
