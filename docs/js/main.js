@@ -2,7 +2,7 @@
     "use strict";
     
     // Smooth scrolling on the navbar links
-    $(".navbar-nav a").on('click', function (event) {
+    $(".navbar-nav a, .large-btn a.btn, #about a.btn").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             
