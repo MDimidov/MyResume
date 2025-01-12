@@ -558,6 +558,9 @@ a:focus {
     margin: 0;
 }
 
+#education ul {
+    list-style-type: "» ";
+}
 
 /**********************************/
 /********* Experience CSS *********/
