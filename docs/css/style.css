@@ -175,7 +175,16 @@ button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
     .wrapper .sidebar .sidebar-header img {
         width: 100%;
         height: auto;
+        filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.80));
+        -webkit-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
     }
+    
+    .wrapper .sidebar .sidebar-header img:hover {
+        filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+    }
+    
     
     .navbar-brand {
         display: none;
