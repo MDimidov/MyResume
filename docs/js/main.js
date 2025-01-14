@@ -33,10 +33,18 @@
     
     // Skills
     $('.skills').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
+        $('.skills .progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {offset: '80%'});
+
+    // Soft Skills
+    $('.soft-skills').waypoint(function () {
+        $('.soft-skills .progress .progress-bar').each(function () {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {offset: '80%'});
+    
     
     
     // Porfolio isotope and filter
