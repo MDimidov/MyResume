@@ -414,7 +414,7 @@ ul {
 }
 
 .glow:hover {
-    animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
 }
 
   @-webkit-keyframes glow {
