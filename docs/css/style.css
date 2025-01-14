@@ -488,22 +488,22 @@ ul {
     background: #222222;
 }
 
-.about .skills {
+.about .soft-skills {
     padding-top: 15px;
 }
 
-.about .skill-name {
+.about .soft-skill-name {
     margin-top: 15px;
 }
 
-.about .skill-name p {
+.about .soft-skill-name p {
     display: inline-block;
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.about .skill-name p:last-child {
+.about .soft-skill-name p:last-child {
     float: right;
 }
 
@@ -880,7 +880,7 @@ ul {
 /**********************************/
 /*********** Review CSS ***********/
 /**********************************/
-/* .review {
+.review {
     position: relative;
     background: #ffffff;
     border-bottom: 30px solid #8a8883;
@@ -937,6 +937,41 @@ ul {
 .review .slick-slider:hover .slick-next {
     right: 30px;
 }
+
+
+.review .skills {
+    padding-top: 15px;
+}
+
+.review .skill-name {
+    margin-top: 15px;
+}
+
+.review .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review .skill-name p:last-child {
+    float: right;
+}
+
+.review .progress {
+    height: 5px;
+    border: 1px solid #FF6F61;
+    border-radius: 0;
+    background: #ffffff;
+}
+
+.review .progress .progress-bar {
+    width: 1px;
+    background: #FF6F61;
+    border-radius: 0;
+    transition: 1s;
+}
+
 
 .review-slider .slick-prev,
 .review-slider .slick-next {
@@ -1011,7 +1046,7 @@ ul {
 
 .review-slider.slick-slider {
     margin-bottom: 0;
-} */
+}
 
 
 /**********************************/
