@@ -469,7 +469,7 @@ div.header, div.about, div.education, div.experience, div.portfolio, div.review,
 }
 
 .glow:hover {
-    animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 /* Keyframes for glowing animation */
