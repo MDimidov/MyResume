@@ -35,9 +35,9 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 
 
   // Close success message
-  document.querySelector('button[aria-label="Close"]').onclick = function () {
-    modal.style.display = 'none';
-  };
+  // document.querySelector('button[aria-label="Close"]').onclick = function () {
+  //   modal.style.display = 'none';
+  // };
 
   modal.querySelector('.modal-footer>button.btn.rounded').onclick = function () {
     modal.style.display = 'none';
