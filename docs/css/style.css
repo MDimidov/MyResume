@@ -1055,12 +1055,12 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 }
 
 .review-slider.slick-slider:hover .slick-prev {
-    left: 15px;
+    left: -25px;
     opacity: 1;
 }
 
 .review-slider.slick-slider:hover .slick-next {
-    right: 15px;
+    right: -25px;
     opacity: 1;
 }
 
@@ -1110,7 +1110,6 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 .review-slider.slick-slider {
     margin-bottom: 0;
 }
-
 
 /**********************************/
 /*********** Contact CSS ***********/
