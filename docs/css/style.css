@@ -250,6 +250,7 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
         font-size: 18px;
         color: #222222;
         background: #FF6F61;
+        border-radius: 0.2rem;
     }
     
     .sidebar .sidebar-footer a:last-child {
