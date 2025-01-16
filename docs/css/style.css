@@ -459,62 +459,19 @@ div.header, div.about, div.education, div.experience, div.portfolio, div.review,
 /* Text Glowing Effect */
 .glow {
     display: inline;
-    text-shadow: 0 0 10px #fff,
-                 0 0 20px #fff,
-                 0 0 10px #a19b9e,
-                 0 0 15px #a19b9e,
-                 0 0 20px #a19b9e,
-                 0 0 25px #a19b9e,
-                 0 0 30px #a19b9e;
+    text-shadow: 0 0 2px #fff,
+                 0 0 4px #fff,
+                 0 0 6px #ffffff;
+    transition: text-shadow 0.5s linear;
+    
 }
 
 .glow:hover {
-    animation: glow 2s ease-in-out infinite alternate;
+    text-shadow: 0 0 5px #ffffff, 
+                 0 0 10px #ffffff, 
+                 0 0 15px #a19b9e,
+                 0 0 20px #a19b9e;
 }
-
-/* Keyframes for glowing animation */
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 
-                     0 0 20px #fff, 
-                     0 0 30px #6c6a6b, 
-                     0 0 40px #6c6a6b, 
-                     0 0 50px #6c6a6b, 
-                     0 0 60px #6c6a6b, 
-                     0 0 70px #6c6a6b;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 
-                     0 0 30px #a19b9e, 
-                     0 0 40px #a19b9e, 
-                     0 0 50px #a19b9e, 
-                     0 0 60px #a19b9e, 
-                     0 0 70px #a19b9e, 
-                     0 0 80px #a19b9e;
-    }
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 
-                     0 0 20px #fff, 
-                     0 0 30px #6c6a6b, 
-                     0 0 40px #6c6a6b, 
-                     0 0 50px #6c6a6b, 
-                     0 0 60px #6c6a6b, 
-                     0 0 70px #6c6a6b;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 
-                     0 0 30px #a19b9e, 
-                     0 0 40px #a19b9e, 
-                     0 0 50px #a19b9e, 
-                     0 0 60px #a19b9e, 
-                     0 0 70px #a19b9e, 
-                     0 0 80px #a19b9e;
-    }
-}
-
 
 
 /**********************************/
