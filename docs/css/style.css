@@ -102,13 +102,13 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #FF6F61;
     padding: 5px 15px 7px 15px;
     transition: all .3s;
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #FF6F61;
+    /* color: #FF6F61; */
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -116,13 +116,13 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
-}
-
-.navbar-expand-md .navbar-nav .nav-link:hover i,
-.navbar-expand-md .navbar-nav .nav-link.active i{
     color: #ffffff;
 }
+
+/* .navbar-expand-md .navbar-nav .nav-link:hover i,
+.navbar-expand-md .navbar-nav .nav-link.active i{
+    color: #ffffff;
+} */
 
 
 .wrapper .sidebar,
