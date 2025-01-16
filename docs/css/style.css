@@ -262,6 +262,9 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
         background: #ffffff;
     }
     
+    .sidebar .sidebar-footer a i{
+        vertical-align: middle;
+    }
     .sidebar:hover .sidebar-footer {
         display: block;
     }
