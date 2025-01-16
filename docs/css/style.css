@@ -307,6 +307,20 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
     }
 }
 
+@media(max-width: 767.98px) {
+    .navbar.navbar-expand-md.bg-dark.navbar-dark {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        transition: top 0.3s ease-in-out;
+    }
+
+    .header {
+        margin-top: 70px;
+    }
+}
+
 @media (max-width: 576px) {
     .wrapper .content {
         padding: 15px;
@@ -553,6 +567,13 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 
 .about .soft-skills {
     padding-top: 15px;
+}
+
+@media (min-width: 992px) {
+    .about .col-md-6.col-lg-5 {
+        display: none;
+        width: 0;
+    }
 }
 
 @media(max-width: 767.98px) {
