@@ -105,8 +105,7 @@
                         <br>
                         <h2></h2>
                         <div class="typed-text">
-                            Junior C# Web Developer, Junior C# Back-End Developer, Officer of the watch, Engineer - Navigator
-                        </div>
+                            Junior C# Web Developer, Junior C# Back-End Developer, Officer of the watch, Engineer - Navigator</div>
                     </div>
                 </div>
             </div>
@@ -1317,25 +1316,58 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form">
-                                <form>
+                                <form id="contactForm" action="https://formsubmit.co/0938bc2d0a38e1a6a07ef5fd9cfc7b83"
+                                    method="post">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="Your Name" />
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                                name="name" required />
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" placeholder="Your Email" />
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                                name="email" maxlength="64" required />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject" />
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                            name="_subject" required />
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Message"
+                                            name="message" required></textarea>
                                     </div>
-                                    <div><button class="btn rounded" type="submit">Send Message</button></div>
+                                    <!-- <input type="hidden" name="_autoresponse" value="Your massage has been send successfully to Mariyan Dimidov"> -->
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_next"
+                                        value="https://mdimidov.github.io/MyResume/#contact">
+                                    <div>
+                                        <button class="btn rounded" type="submit" id="submitButton">Send
+                                            Message</button>
+                                    </div>
                                 </form>
                             </div>
+
+                            <div class="modal" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Email status</h5>
+                                            <button type="button" class="btn rounded" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn rounded">Okay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -1374,6 +1406,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/calculates-time-interval.js"></script>
+    <script src="js/send-mail.js"></script>
 </body>
 
 </html>

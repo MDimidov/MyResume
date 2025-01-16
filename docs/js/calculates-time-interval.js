@@ -74,7 +74,7 @@
 
             let totalMonths = monthDiff(startDate, endDate) + 1;
             let beautifiedTotal = getBeautifiedTotal(totalMonths);
-            console.log(beautifiedTotal)
+            
             $(timeTotals[i]).text(beautifiedTotal);
         }
     })();

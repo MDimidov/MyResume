@@ -53,7 +53,7 @@ button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
 }
 
 div.about, div.education, div.experience, div.portfolio, div.review, div.contact {
-    border-radius: 2rem;
+    border-radius: 0.2rem;
     box-shadow: inset 0 0 5px 2px #282a2d;
 }
 
@@ -351,8 +351,8 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
 .header {
     position: relative;
     background: #ffffff;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
     box-shadow: inset 0 0 5px 2px #282a2d;
 
 }
@@ -433,14 +433,14 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
     font-size: 20px;
     background: #222222;
     border-radius: 0;
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 0.2rem;
 }
 
 .large-btn .btn:last-child {
     color: #222222;
     background: #FF6F61;
     border-radius: 0;
-    border-bottom-right-radius: 2rem;
+    border-bottom-right-radius: 0.2rem;
 }
 
 .large-btn .btn i {
@@ -1196,6 +1196,51 @@ div.about, div.education, div.experience, div.portfolio, div.review, div.contact
     background: #222222;
 }
 
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .modal-header {
+      border-color: #FF6F61;
+  }
+
+  .modal-footer {
+      border-color: #FF6F61;
+  }
+
+  .modal .btn.rounded>span[aria-hidden="true"] {
+    font-weight: bold;
+  }
+
+  .modal .btn.rounded{
+    color: #222222;
+    background: #FF6F61;
+    border-radius: 0;
+    transition: all .3s;
+  }
+
+.modal .btn.rounded:hover{
+    color: #FF6F61;
+    background: #222222;
+  }
 
 /**********************************/
 /*********** Footer CSS ***********/
