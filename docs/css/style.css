@@ -98,12 +98,10 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 
 .navbar-expand-md .navbar-nav .nav-item {
     width: 100%;
-    /* padding-top: 5px; */
     border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
 .navbar-expand-md .navbar-nav .nav-item:first-child{
-    /* padding-top: 0; */
     border-top: none;
 }
 
@@ -114,7 +112,6 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    /* color: #FF6F61; */
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -381,12 +378,6 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 
 }
 
-/* .header .content-inner {
-    padding: 100px 30px;
-    background: url(../img/profile1.png) right bottom no-repeat;
-    background-size: contain;
-} */
-
 .header .content-inner {
     position: relative;
     padding: 100px 30px;
@@ -648,11 +639,6 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 @media (min-width: 768px) {
-    /* .education .col-md-12:nth-child(-n+2) .edu-col {
-        padding-top: 0;
-    }
-
-    .education .col-md-12:last-child .edu-col, */
     .education .col-md-12:last-child .edu-col {
         border-bottom: none;
         padding-bottom: 0;
@@ -721,11 +707,6 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 @media (min-width: 768px) {
-    /* .experience .col-md-12:nth-child(-n+2) .exp-col {
-        padding-top: 0;
-    }
-
-    .experience .col-md-12:last-child .exp-col, */
     .experience .col-md-12:last-child .exp-col {
         border-bottom: none;
         padding-bottom: 0;
@@ -781,53 +762,6 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 
 
 /**********************************/
-/*********** Service CSS **********/
-/**********************************/
-/* .service {
-    position: relative;
-    padding: 60px 30px 30px 30px;
-    background: #ffffff;
-    margin-bottom: 30px;
-}
-
-.service .srv-col {
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.service .srv-col i {
-    font-size: 30px;
-    color: #FF6F61;
-    margin-bottom: 15px;
-}
-
-.service .srv-col h3 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-
-.experience .exp-col h4 {
-    font-size: 14px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-.experience .exp-col h5 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.experience .exp-col p {
-    margin: 0;
-} */
-
-
-/**********************************/
 /********** Portfolio CSS *********/
 /**********************************/
 .portfolio {
@@ -837,14 +771,14 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
     padding: 0;
     margin: -15px 0 30px 0;
     list-style: none;
     font-size: 0;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
     cursor: pointer;
     margin: 15px -1px 0 0;
     display: inline-block;
@@ -859,8 +793,8 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
     background: #FF6F61;
     color: #222222;
 }
@@ -987,25 +921,23 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 .skill .content-inner {
     position: relative;
     padding: 60px 30px;
-    /* background: url(../img/quote.png) right bottom no-repeat; */
 }
 
 .skill .skill-text p {
     font-size: 18px;
-    /* font-style: italic; */
 }
 
-.skill .skill-img {
+/* .skill .skill-img {
     display: flex;
     align-items: center;
-}
+} */
 
-.skill .skill-img img {
+/* .skill .skill-img img {
     width: 80px; 
     height: 80px; 
     object-fit: cover;
     margin-right: 15px;
-}
+} */
 
 .skill .skill-name h3 {
     font-size: 18px;
@@ -1019,14 +951,14 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     margin-bottom: 0;
 }
 
-.skill .skill-text .ratting {
+/* .skill .skill-text .ratting {
     margin-bottom: 5px;
-}
+} */
 
-.skill .skill-text .ratting i {
+/* .skill .skill-text .ratting i {
     color: #FF6F61;
     font-size: 14px;
-}
+} */
 
 .skill .slick-slider:hover .slick-prev {
     left: 30px;
