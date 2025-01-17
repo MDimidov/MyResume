@@ -35,12 +35,12 @@ ul {
 
 button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
     box-shadow: 0 0 3px #fff,
-                 0 0 6px #fff,
-                 0 0 9px #a19b9e,
-                 0 0 12px #a19b9e,
-                 0 0 15px #a19b9e,
-                 0 0 18px #a19b9e,
-                 0 0 21px #a19b9e;
+        0 0 6px #fff,
+        0 0 9px #a19b9e,
+        0 0 12px #a19b9e,
+        0 0 15px #a19b9e,
+        0 0 18px #a19b9e,
+        0 0 21px #a19b9e;
     margin: 0.5rem;
 }
 
@@ -48,7 +48,8 @@ button.btn.btn-sm.btn-outline-secondary>i {
     pointer-events: none;
 }
 
-.startDate, .lastDate {
+.startDate,
+.lastDate {
     font-style: normal;
 }
 
@@ -56,7 +57,12 @@ button.btn.btn-sm.btn-outline-secondary>i {
     display: inline;
 }
 
-div.about, div.education, div.experience, div.portfolio, div.skill, div.contact {
+div.about,
+div.education,
+div.experience,
+div.portfolio,
+div.skill,
+div.contact {
     border-radius: 0.2rem;
     box-shadow: inset 0 0 5px 2px #282a2d;
 }
@@ -101,7 +107,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
-.navbar-expand-md .navbar-nav .nav-item:first-child{
+.navbar-expand-md .navbar-nav .nav-item:first-child {
     border-top: none;
 }
 
@@ -123,7 +129,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
-.navbar-expand-md .navbar-nav .nav-link.active i{
+.navbar-expand-md .navbar-nav .nav-link.active i {
     color: #ffffff;
 }
 
@@ -140,7 +146,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     .wrapper .content {
         padding: 30px 0px 30px 30px;
     }
-    
+
     .wrapper .content::before,
     .wrapper .content::after {
         position: fixed;
@@ -150,15 +156,15 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         background: #8a8883;
         z-index: 1;
     }
-    
+
     .wrapper .content::before {
         top: 0;
     }
-    
+
     .wrapper .content::after {
         bottom: 0;
     }
-    
+
     .wrapper .sidebar {
         position: fixed;
         width: 300px;
@@ -174,15 +180,15 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     .wrapper .sidebar:hover {
         margin-left: 0px;
     }
-    
+
     .wrapper .content {
         position: relative;
         width: calc(100% - 50px);
         margin-left: 50px;
         float: right;
     }
-    
-    .wrapper .sidebar:hover  .sidebar-header {
+
+    .wrapper .sidebar:hover .sidebar-header {
         position: relative;
         display: block;
         width: 100%;
@@ -196,31 +202,31 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         -o-transition: all 0.5s linear;
         transition: all 0.5s linear;
     }
-    
+
     .wrapper .sidebar .sidebar-header img:hover {
         filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
     }
-    
-    
+
+
     .navbar-brand {
         display: none;
     }
-    
+
     .navbar {
         padding: 15px 0;
         flex-direction: column;
     }
-    
+
     .wrapper .sidebar:hover .navbar-expand-md .navbar-nav .nav-link {
         padding: 5px 30px 7px 30px;
     }
-    
+
     .wrapper .sidebar::-webkit-scrollbar {
         width: 7px;
     }
 
     .wrapper .sidebar::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     }
 
     .wrapper .sidebar::-webkit-scrollbar-thumb {
@@ -228,11 +234,11 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         outline: 1px solid slategrey;
         border-radius: 7px;
     }
-    
+
     .navbar-brand {
         display: none;
     }
-    
+
     .sidebar .sidebar-footer {
         width: 300px;
         position: fixed;
@@ -242,7 +248,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         text-align: center;
         background: #222222;
     }
-    
+
     .sidebar .sidebar-footer a {
         display: inline-block;
         width: 40px;
@@ -255,19 +261,20 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         background: #FF6F61;
         border-radius: 0.2rem;
     }
-    
+
     .sidebar .sidebar-footer a:last-child {
         margin-right: 0;
     }
-    
+
     .sidebar .sidebar-footer a:hover {
         color: #FF6F61;
         background: #ffffff;
     }
-    
-    .sidebar .sidebar-footer a i{
+
+    .sidebar .sidebar-footer a i {
         vertical-align: middle;
     }
+
     .sidebar:hover .sidebar-footer {
         display: block;
     }
@@ -288,11 +295,11 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
         display: block;
         width: 100%;
     }
-    
+
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 5px 30px 7px 30px;
     }
-    
+
     .sidebar .sidebar-footer {
         display: block;
     }
@@ -351,18 +358,28 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 .back-to-top {
-    -webkit-animation: action 1s infinite  alternate;
-    animation: action 1s infinite  alternate;
+    -webkit-animation: action 1s infinite alternate;
+    animation: action 1s infinite alternate;
 }
 
 @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-15px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
 }
 
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-15px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
 }
 
 
@@ -483,17 +500,17 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 .glow {
     display: inline;
     text-shadow: 0 0 2px #fff,
-                 0 0 4px #fff,
-                 0 0 6px #ffffff;
+        0 0 4px #fff,
+        0 0 6px #ffffff;
     transition: text-shadow 0.5s linear;
-    
+
 }
 
 .glow:hover {
-    text-shadow: 0 0 5px #ffffff, 
-                 0 0 10px #ffffff, 
-                 0 0 15px #a19b9e,
-                 0 0 20px #a19b9e;
+    text-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 15px #a19b9e,
+        0 0 20px #a19b9e;
 }
 
 
@@ -811,13 +828,13 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     height: 220px;
     position: relative;
     border-radius: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .portfolio .portfolio-item figure img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .portfolio .portfolio-item figure:hover img {
@@ -1183,9 +1200,9 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
-  .modal-content {
+.modal-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -1193,31 +1210,31 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
     width: 50%;
     text-align: center;
     border-radius: 8px;
-  }
+}
 
-  .modal-header {
-      border-color: #FF6F61;
-  }
+.modal-header {
+    border-color: #FF6F61;
+}
 
-  .modal-footer {
-      border-color: #FF6F61;
-  }
+.modal-footer {
+    border-color: #FF6F61;
+}
 
-  .modal .btn.rounded>span[aria-hidden="true"] {
+.modal .btn.rounded>span[aria-hidden="true"] {
     font-weight: bold;
-  }
+}
 
-  .modal .btn.rounded{
+.modal .btn.rounded {
     color: #222222;
     background: #FF6F61;
     border-radius: 0;
     transition: all .3s;
-  }
+}
 
-.modal .btn.rounded:hover{
+.modal .btn.rounded:hover {
     color: #FF6F61;
     background: #222222;
-  }
+}
 
 /**********************************/
 /*********** Footer CSS ***********/
@@ -1234,6 +1251,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 }
 
 @media(max-width: 767.98px) {
+
     .footer .col-md-6,
     .footer .col-md-6:last-child {
         text-align: center;
@@ -1253,4 +1271,3 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 .footer a:hover {
     color: #222222;
 }
-

@@ -109,7 +109,6 @@
   });
 })(jQuery);
 
-
 // Start JS
 document.addEventListener("DOMContentLoaded", function () {
   // Nav menu show hide during mobile version
@@ -150,6 +149,5 @@ document.addEventListener("DOMContentLoaded", function () {
     let section = document.querySelector(".about .col-md-6.col-lg-7");
     section.classList.remove("col-lg-7");
     section.classList.add("col-lg-12");
-    console.log(section);
   }
 });
