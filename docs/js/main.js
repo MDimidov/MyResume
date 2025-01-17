@@ -86,8 +86,8 @@
     portfolioIsotope.isotope({ filter: $(this).data("filter") });
   });
 
-  // Review slider
-  $(".review-slider").slick({
+  // Skill slider
+  $(".skill-slider").slick({
     autoplay: true,
     dots: false,
     infinite: true,
