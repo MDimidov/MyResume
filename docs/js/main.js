@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    if (scrollTop > lastScrollTop) {
+    if (scrollTop > lastScrollTop && this.window.innerWidth <= 767.98) {
       // Hide navigation bar when you scroll down
       sidebar.style.top = "-70px"; // Hide it above the screen
     } else {
