@@ -541,7 +541,7 @@ div.about, div.education, div.experience, div.portfolio, div.skill, div.contact 
 .about img {
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 0.2rem;
 }
 
 .about .btn {
