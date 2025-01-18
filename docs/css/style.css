@@ -42,6 +42,13 @@ button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
         0 0 18px #a19b9e,
         0 0 21px #a19b9e;
     margin: 0.5rem;
+    transition: 0.8s;
+}
+
+button.btn.btn-sm.btn-outline-secondary[aria-expanded="false"] {
+    box-shadow: none;
+    margin: 0;
+    transition: 0.8s;
 }
 
 button.btn.btn-sm.btn-outline-secondary>i {
@@ -72,7 +79,7 @@ div.contact {
     text-shadow: 0 0 2px #fff,
         0 0 4px #a19b9e,
         0 0 4px #a19b9e;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 /**********************************/
