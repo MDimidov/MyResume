@@ -339,6 +339,12 @@ div.contact {
     }
 }
 
+@media (max-height: 740px) {
+    .sidebar .collapse.navbar-collapse {
+        margin-bottom: 4rem;
+    }
+}
+
 
 /**********************************/
 /******** Back to Top CSS *********/
