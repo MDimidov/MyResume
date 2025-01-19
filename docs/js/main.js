@@ -118,6 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
     ".navbar.navbar-expand-md.bg-dark.navbar-dark"
   );
 
+  const btnShowNavbar = sidebar.querySelector(".navbar-toggler");
+
   window.addEventListener("scroll", function () {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
@@ -129,13 +131,13 @@ document.addEventListener("DOMContentLoaded", function () {
       sidebar.style.top = "0";
     }
 
-    const divNavElement = sidebar.querySelector(
-      ".sidebar .navbar-collapse.collapse"
+    const navbarCollapse = sidebar.querySelector(
+      ".navbar-collapse.collapse"
     );
 
-    const targetClassList = Array.from(divNavElement.classList);
+    const targetClassList = Array.from(navbarCollapse.classList);
     if (targetClassList.includes("show")) {
-      divNavElement.classList.remove("show");
+      btnShowNavbar.click();
     }
 
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // No negative values
@@ -143,12 +145,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const navLinks = document.querySelectorAll(".nav-link");
 
-  const navbarCollapse = document.querySelector(".navbar-collapse");
-
   navLinks.forEach((link) => {
     link.addEventListener("click", function () {
       if (window.innerWidth <= 767.98) {
-        navbarCollapse.classList.remove("show");
+        btnShowNavbar.click();
       }
     });
   });
