@@ -132,9 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const navbarCollapse = sidebar.querySelector(
-      ".navbar-collapse.collapse"
+      "#navbarCollapse"
     );
 
+    
     const targetClassList = Array.from(navbarCollapse.classList);
     if (targetClassList.includes("show")) {
       btnShowNavbar.click();
