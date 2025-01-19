@@ -346,7 +346,7 @@ div.contact {
     }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 740px) and (min-width: 767.98px){
     .sidebar .collapse.navbar-collapse {
         margin-bottom: 4rem;
     }
@@ -1211,7 +1211,7 @@ div.contact {
     background: #222222;
 }
 
-
+/* PopUp modal form after sending mail */
 .modal {
     display: none;
     position: fixed;
@@ -1257,6 +1257,7 @@ div.contact {
     background: #222222;
 }
 
+/* Pure CSS Loaders */
 .lds-default {
     /* change color here */
     color: #FF6F61

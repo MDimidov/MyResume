@@ -129,6 +129,15 @@ document.addEventListener("DOMContentLoaded", function () {
       sidebar.style.top = "0";
     }
 
+    const divNavElement = sidebar.querySelector(
+      ".sidebar .navbar-collapse.collapse"
+    );
+
+    const targetClassList = Array.from(divNavElement.classList);
+    if (targetClassList.includes("show")) {
+      divNavElement.classList.remove("show");
+    }
+
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // No negative values
   });
 
