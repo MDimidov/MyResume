@@ -6,10 +6,12 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
   const modal = document.querySelector(".modal");
   const pElement = modal.querySelector("p");
+  // const divElement = pElement.querySelector('div');
 
   // Pop up waiting for email sending
-  pElement.textContent =
-    "Your email is sending. Please wait, this may take a few moments.";
+  pElement.innerHTML =
+    "Your email is sending. Please wait, this may take a few moments." +
+    '<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>';
   modal.style.display = "block";
 
   let emailInfo = "";
@@ -20,13 +22,15 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     .then((response) => {
       if (response.ok) {
         emailInfo = "Email sent successfully!";
+        pElement.style.color = "#2add17";
       } else {
         emailInfo = "Email failed to send.";
+        pElement.style.color = "#9c0919";
       }
 
       // Pop the successful message
+      pElement.innerHTML = "";
       pElement.textContent = emailInfo;
-      pElement.style.color = "#2add17";
       modal.style.display = "block";
       document.getElementById("contactForm").reset();
     })
@@ -35,7 +39,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     });
 
   // Close success message
-  // document.querySelector('button[aria-label="Close"]').onclick = function () {
+  // document.querySelector('button[aria-label='Close']').onclick = function () {
   //   modal.style.display = 'none';
   // };
 
