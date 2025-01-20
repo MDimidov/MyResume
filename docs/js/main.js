@@ -38,17 +38,17 @@
   }
 
   // Change Drop Down Button on Click
-  $("button.btn.btn-sm.btn-outline-secondary").on("click", function () {
+  $(".btn-sm.btn-outline-secondary").on("click", function () {
     let currentText = $(this).text();
     if ($(this).attr("aria-expanded") === "false") {
       $(this).html(
-        currentText.replace("See", "Hide") +
-          ' <i class="fa-solid fa-down-left-and-up-right-to-center"></i>'
+        // currentText.replace("See", "Hide") + ' <i class="fa-solid fa-down-left-and-up-right-to-center"></i>'
+        currentText.replace("See", "Hide") + ' <i class="fa-solid fa-angle-up"></i>'
       );
     } else {
       $(this).html(
-        currentText.replace("Hide", "See") +
-          ' <i class="fa-solid fa-up-right-and-down-left-from-center"></i>'
+        currentText.replace("Hide", "See") + ' <i class="fa-solid fa-angle-down"></i>'
+        // currentText.replace("Hide", "See") + ' <i class="fa-solid fa-up-right-and-down-left-from-center"></i>'
       );
     }
   });

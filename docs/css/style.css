@@ -33,25 +33,7 @@ ul {
     list-style-type: "» ";
 }
 
-button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
-    box-shadow: 0 0 3px #fff,
-        0 0 6px #fff,
-        0 0 9px #a19b9e,
-        0 0 12px #a19b9e,
-        0 0 15px #a19b9e,
-        0 0 18px #a19b9e,
-        0 0 21px #a19b9e;
-    margin: 0.5rem;
-    transition: 0.8s;
-}
-
-button.btn.btn-sm.btn-outline-secondary[aria-expanded="false"] {
-    box-shadow: none;
-    margin: 0;
-    transition: 0.8s;
-}
-
-button.btn.btn-sm.btn-outline-secondary>i {
+.btn-sm.btn-outline-secondary>i {
     pointer-events: none;
 }
 
@@ -648,6 +630,30 @@ div.contact {
     transition: 1s;
 }
 
+.about .small-text {
+    font-size: smaller;
+    margin-top: 0.4rem;
+}
+
+.about .soft-skill-name p{
+    padding: 4px 8px;
+    color: #666666;
+}
+
+.about .soft-skill-name {
+    vertical-align: middle;
+}
+
+/* .about .soft-skill-name p:active {
+    all: unset;
+    background-color: #fff;
+} */
+
+.about .soft-skill-name .btn-outline-secondary:hover {
+    color: white;
+    transition: 0.35s;
+}
+
 
 /**********************************/
 /********* Education CSS **********/
@@ -798,6 +804,27 @@ div.contact {
     margin: 0;
 }
 
+
+
+.education button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"],
+.experience button.btn.btn-sm.btn-outline-secondary[aria-expanded="true"] {
+    box-shadow: 0 0 3px #fff,
+        0 0 6px #fff,
+        0 0 9px #a19b9e,
+        0 0 12px #a19b9e,
+        0 0 15px #a19b9e,
+        0 0 18px #a19b9e,
+        0 0 21px #a19b9e;
+    margin: 0.5rem;
+    transition: 0.8s;
+}
+
+.education button.btn.btn-sm.btn-outline-secondary[aria-expanded="false"],
+.experience button.btn.btn-sm.btn-outline-secondary[aria-expanded="false"] {
+    box-shadow: none;
+    margin: 0;
+    transition: 0.8s;
+}
 
 /**********************************/
 /********** Portfolio CSS *********/
