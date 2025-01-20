@@ -328,7 +328,7 @@ div.contact {
     }
 }
 
-@media (max-height: 740px) and (min-width: 767.98px){
+@media (max-height: 740px) and (min-width: 767.98px) {
     .sidebar .collapse.navbar-collapse {
         margin-bottom: 4rem;
     }
@@ -635,7 +635,7 @@ div.contact {
     margin-top: 0.4rem;
 }
 
-.about .soft-skill-name p{
+.about .soft-skill-name p {
     padding: 4px 8px;
     color: #666666;
 }

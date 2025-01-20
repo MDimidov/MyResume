@@ -43,11 +43,13 @@
     if ($(this).attr("aria-expanded") === "false") {
       $(this).html(
         // currentText.replace("See", "Hide") + ' <i class="fa-solid fa-down-left-and-up-right-to-center"></i>'
-        currentText.replace("See", "Hide") + ' <i class="fa-solid fa-angle-up"></i>'
+        currentText.replace("See", "Hide") +
+          ' <i class="fa-solid fa-angle-up"></i>'
       );
     } else {
       $(this).html(
-        currentText.replace("Hide", "See") + ' <i class="fa-solid fa-angle-down"></i>'
+        currentText.replace("Hide", "See") +
+          ' <i class="fa-solid fa-angle-down"></i>'
         // currentText.replace("Hide", "See") + ' <i class="fa-solid fa-up-right-and-down-left-from-center"></i>'
       );
     }
