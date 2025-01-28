@@ -1026,25 +1026,18 @@ div.contact {
     font-size: 14px;
 } */
 
-.skill .slick-slider:hover .slick-prev {
+/* .skill .slick-slider:hover .slick-prev {
     left: 30px;
 }
 
 .skill .slick-slider:hover .slick-next {
     right: 30px;
-}
+} */
 
 
 .skill .skills {
     padding-top: 15px;
 }
-
-@media(max-width: 767.98px) {
-    .skill .skills {
-        padding-top: 0;
-    }
-}
-
 
 .skill .skill-name {
     margin-top: 15px;
@@ -1104,6 +1097,10 @@ div.contact {
     opacity: 1;
 }
 
+.skill-slider.slick-slider .slick-arrow {
+    border-radius: 0.15rem;
+}
+
 .skill-slider .slick-prev:hover,
 .skill-slider .slick-prev:focus,
 .skill-slider .slick-next:hover,
@@ -1149,6 +1146,22 @@ div.contact {
 
 .skill-slider.slick-slider {
     margin-bottom: 0;
+}
+
+@media(max-width: 767.98px) {
+    .skill .skills {
+        padding-top: 0;
+    }
+
+    .skill .slick-slider .slick-prev {
+        left: -25px;
+        opacity: 1;
+    }
+    
+    .skill .slick-slider .slick-next {
+        opacity: 1;
+        right: -25px;
+    }
 }
 
 /**********************************/
