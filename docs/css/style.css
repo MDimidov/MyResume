@@ -923,11 +923,13 @@ div.contact {
 }
 
 .portfolio .portfolio-item figure .link-preview {
+    border-radius: 0.15rem;
     left: 50%;
     top: calc(25% - 18px);
 }
 
 .portfolio .portfolio-item figure .link-details {
+    border-radius: 0.15rem;
     right: 50%;
     top: calc(25% - 18px);
 }
@@ -944,7 +946,7 @@ div.contact {
     font-size: 16px;
     font-weight: 600;
     background: rgba(255, 111, 97, .5);
-    border-radius: 0;
+    border-radius: 0.15rem;
 }
 
 .portfolio .portfolio-item figure .portfolio-title:hover {
@@ -974,6 +976,27 @@ div.contact {
     top: 50%;
 }
 
+@media (max-width: 767.98px) {
+    .portfolio .portfolio-item figure img {
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+    .portfolio .portfolio-item figure .link-preview {
+        opacity: 0.1;
+        left: calc(50% - 61px);
+    }
+
+    .portfolio .portfolio-item figure .link-details {
+        opacity: 0.1;
+        right: calc(50% - 61px);
+    }
+
+    .portfolio .portfolio-item figure .portfolio-title {
+        opacity: 0.1;
+        top: 50%;
+    }
+}
 
 /**********************************/
 /*********** Skill CSS ***********/
@@ -1157,7 +1180,7 @@ div.contact {
         left: -25px;
         opacity: 1;
     }
-    
+
     .skill .slick-slider .slick-next {
         opacity: 1;
         right: -25px;
