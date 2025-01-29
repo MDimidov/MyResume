@@ -404,7 +404,7 @@ div.contact {
     overflow: hidden;
 }
 
-.header .background {
+/* .header .background {
     position: absolute;
     top: 0;
     right: 0;
@@ -414,7 +414,7 @@ div.contact {
     background-size: contain;
     filter: drop-shadow(20px 10px 5px rgba(0, 0, 0, 0.5));
     z-index: 0;
-}
+} */
 
 .header .content {
     position: relative;
