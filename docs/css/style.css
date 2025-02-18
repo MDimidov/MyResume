@@ -24,7 +24,7 @@ a:focus {
     text-decoration: none;
 }
 
-a:hover {
+.content a:hover {
     transition: all .01s;
 }
 
@@ -133,11 +133,6 @@ div.contact {
 .navbar-expand-md .navbar-nav .nav-link.active i {
     color: #ffffff;
 }
-
-.sidebar-footer > a.nav-link:hover {
-    transition: .3s;
-}
-
 
 .wrapper .sidebar,
 .wrapper .content {
