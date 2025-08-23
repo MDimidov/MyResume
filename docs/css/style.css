@@ -7,7 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h3>a {
+h3>a, h5>a, b>a {
     color: #666666;
 }
 
