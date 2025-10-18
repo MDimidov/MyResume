@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 
+# WakaTime
+*.wakatime-project
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
